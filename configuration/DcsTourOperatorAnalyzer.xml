@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:ClientAnalyzers xmlns:ns="http://www.sabre.com/asx">
+    <ns:ClientAnalyzer>
+        <ns:Name>DcsTourOperatorAnalyzer</ns:Name>
+        <ns:ClassName>de.airberlin.ix.touroperator.DcsTourOperatorAnalyzer</ns:ClassName>
+        <ns:ClientAnalyzerDependencies/>
+        <ns:ClientContainers>
+            <ns:ClientContainer>DcsFlightLeg Client Analysis</ns:ClientContainer>
+        </ns:ClientContainers>
+    </ns:ClientAnalyzer>
+</ns:ClientAnalyzers>

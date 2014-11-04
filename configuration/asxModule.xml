@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:ASxModule name="AirBerlin DcsTourOperator Analyzer" id="ASx.AirBerlin.DcsTourOperatorAnalyzer" version="6.2.1"
+              application="AirBerlin Platform Configuration Extensions" xmlns:ns="http://www.sabre.com/asx">
+    <ns:Dependencies/>
+    <ns:Configuration>
+        <ns:ConfigItem type="MetaModel" name="DynamicAttributes" source="DcsTourOperatorDynamicAttributes.xml"/>
+        <ns:ConfigItem type="ClientAnalyzer" name="DcsTourOperatorAnalyzer" source="DcsTourOperatorAnalyzer.xml"/>
+    </ns:Configuration>
+</ns:ASxModule>

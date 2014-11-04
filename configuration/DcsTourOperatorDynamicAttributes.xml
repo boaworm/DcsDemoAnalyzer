@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:ASxMetaModel xmlns:ns="http://www.sabre.com/asx">
+    <ns:Entity name="DcsPax">
+        <ns:DynamicAttribute name="TourOperator" type="String" displayText="TourOp" tooltip="TourOperator" description="Tour Operator Number"/>
+        <ns:DynamicAttribute name="TourOperatorBookingNumber" type="String" displayText="TourOpBkNo" tooltip="TourOperatorBkNo" description="Tour Operator Booking Number"/>
+    </ns:Entity>
+</ns:ASxMetaModel>
