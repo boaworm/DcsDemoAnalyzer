@@ -188,7 +188,7 @@
     <build>
         <sourceDirectory>${project.basedir}/src/main/</sourceDirectory>
         <testSourceDirectory>${project.basedir}/src/test/</testSourceDirectory>
-        <finalName>ab-dcs-touroperator-analyzer</finalName>
+        <finalName>dcs-demo-analyzer</finalName>
         <resources>
             <resource>
                 <directory>src/test</directory>

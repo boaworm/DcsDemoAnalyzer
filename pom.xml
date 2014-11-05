@@ -96,6 +96,7 @@
         </pluginRepository>
     </pluginRepositories>
     <modules>
+        <module>booking-demo-analyzer</module>
         <module>dcs-demo-analyzer</module>
         <module>dcs-demo-app</module>
     </modules>
