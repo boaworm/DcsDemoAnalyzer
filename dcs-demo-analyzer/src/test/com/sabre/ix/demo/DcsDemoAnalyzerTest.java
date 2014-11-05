@@ -3,10 +3,12 @@ package com.sabre.ix.demo;
 import com.sabre.ix.client.*;
 import com.sabre.ix.client.context.Context;
 import com.sabre.ix.client.context.ContextFactory;
+import com.sabre.ix.client.dao.DataRow;
 import com.sabre.ix.client.dao.MetaModel;
 import com.sabre.ix.client.datahandler.DataHandler;
 import com.sabre.ix.client.datahandler.MetaModelFactory;
 import com.sabre.ix.client.services.MetaModelServices;
+import com.sabre.ix.client.services.QueryServices;
 import com.sabre.ix.client.spi.ActionHandler;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -24,6 +26,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import java.io.File;
 import java.io.IOException;
 import java.net.InetAddress;
+import java.util.Collections;
 import java.util.List;
 
 import static junit.framework.TestCase.assertNotNull;
@@ -116,6 +119,14 @@ public class DcsDemoAnalyzerTest {
 
         List<DcsFlightLeg> dcsFlightLegs = services.retrieveByCCL("DcsFlightLeg.Origin=\"ATL\"");
         assertThat(dcsFlightLegs.size(), equalTo(2));
+
+        QueryServices queryServices = context.getQueryServices();
+        List<DataRow> dataRows = queryServices.retrieveData("SELECT count(*) FROM booking WHERE bookingStatus=1", Collections.emptyList());
+        assertThat(dataRows.size(), equalTo(1));
+
+
+        //DcsDemoAnalyzer anayzer = new DcsDemoAnalyzer();
+        //anayzer.analyze(dcsFlightLegs.get(0));
 
     }
 
