@@ -16,7 +16,7 @@
             <ns:Description>
                 Type of flavour
             </ns:Description>
-            <ns:Allowed>Tender</ns:Allowed>
+            <ns:Allowed>Chewy</ns:Allowed>
             <ns:Allowed>Juicy</ns:Allowed>
             <ns:Allowed>Burned</ns:Allowed>
             <ns:Allowed>Raw</ns:Allowed>

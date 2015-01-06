@@ -26,7 +26,7 @@
         <ns:Row>
             <ns:Cell name="SoftdrinkId">3</ns:Cell>
             <ns:Cell name="SoftdrinkName">Dr Pepper</ns:Cell>
-            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
             <ns:Cell name="TasteScore">Good</ns:Cell>
             <ns:Cell name="Spoilage">0.10</ns:Cell>
             <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>

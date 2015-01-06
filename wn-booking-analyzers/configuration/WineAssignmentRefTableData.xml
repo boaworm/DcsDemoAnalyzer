@@ -34,6 +34,28 @@
             <ns:Cell name="Capacity">100</ns:Cell>
             <ns:Cell name="Restricted">true</ns:Cell>
         </ns:Row>
+        <ns:Row>
+            <ns:Cell name="VegetableId">4</ns:Cell>
+            <ns:Cell name="VegetableName">Robert Mondavi Chardonnay</ns:Cell>
+            <ns:Cell name="FlavourType">White</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="VegetableId">5</ns:Cell>
+            <ns:Cell name="VegetableName">Domaines Ott</ns:Cell>
+            <ns:Cell name="FlavourType">White</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
     </ns:Table>
 </ns:TableRows>
 
