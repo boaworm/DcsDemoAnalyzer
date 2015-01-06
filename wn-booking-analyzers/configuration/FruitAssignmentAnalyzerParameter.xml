@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Parameters xmlns:ns="http://www.sabre.com/asx">
+    <ns:Parameter conflictResolution="DeployerWinsIfInvalid">
+        <ns:Name>SweetFruitThreshold</ns:Name>
+        <ns:Value>2</ns:Value>
+        <ns:Type>Short</ns:Type>
+        <ns:Description>Minimum (inclusive) number of segments for assigning sweet fruit rather than sour
+        </ns:Description>
+    </ns:Parameter>
+</ns:Parameters>

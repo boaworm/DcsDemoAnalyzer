@@ -32,10 +32,10 @@ public class BerryAnalyzer implements Analyzer<Booking>, ContextAware {
             name.setDynamicAttribute(ASSIGNED_BERRY, null);
         }
 
-        ReferenceTable BerryTable = context.getReferenceTableServices().getReferenceTable("BerryAssignment");
+        ReferenceTable berryTable = context.getReferenceTableServices().getReferenceTable("BerryAssignment");
         Short sweetBerryThreshold = context.getParameterServices().getOptionalParameter("SweetBerryThreshold", (short) 2);
         int berryCount = 0;
-        if (BerryTable == null) {
+        if (berryTable == null) {
             log.warn("Failed to find Berry reference table");
         } else {
             for (BookingName name : booking.getBookingNames()) {
@@ -43,10 +43,10 @@ public class BerryAnalyzer implements Analyzer<Booking>, ContextAware {
                 List<ReferenceTableRow> applicableBerrys;
                 if (name.getBookingNameItems().size() >= sweetBerryThreshold) {
                     // We want to assign a sweet Berry for people travelling far
-                    applicableBerrys = BerryTable.getRowsByColumnValuePair("FlavourType", "Sweet");
+                    applicableBerrys = berryTable.getRowsByColumnValuePair("FlavourType", "Sweet");
                 } else {
                     // And a sour Berry for those travelling short
-                    applicableBerrys = BerryTable.getRowsByColumnValuePair("FlavourType", "Sour");
+                    applicableBerrys = berryTable.getRowsByColumnValuePair("FlavourType", "Sour");
                 }
 
                 if (applicableBerrys.isEmpty()) {
