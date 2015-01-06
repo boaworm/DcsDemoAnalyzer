@@ -27,7 +27,7 @@ public class CpuIntensiveAnalyzerBase implements Analyzer<Booking>, ContextAware
         Integer minimumCpuMillis = parameterServices.getOptionalParameter(MINIMUM_CPU_MILLIS, 100);
         Integer maximumCpuMillis = parameterServices.getOptionalParameter(MAXIMUM_CPU_MILLIS, 300);
         if (minimumCpuMillis > maximumCpuMillis) {
-            log.error("MinimumCpuMillis (" + minimumCpuMillis + ")is greater than MaximumCpuMillis! (" + maximumCpuMillis + "). Please correct configuration!");
+            log.error("MinimumCpuMillis (" + minimumCpuMillis + ") is greater than MaximumCpuMillis! (" + maximumCpuMillis + "). Please correct configuration!");
             return;
         }
 
