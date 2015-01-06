@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:ASxMetaModel xmlns:ns="http://www.sabre.com/asx">
+    <ns:Entity name="BookingName">
+        <ns:DynamicAttribute name="FruitType" type="String" displayText="Fruit type" tooltip="Fruit type" description="Fruit type (Apple, Orange etc)"/>
+        <ns:DynamicAttribute name="VegetableType" type="String" displayText="Vegetable type" tooltip="Vegetable type" description="Vegetable type (Tomato, Cucumber etc))"/>
+        <ns:DynamicAttribute name="SteakType" type="String" displayText="Steak type" tooltip="Steak type" description="Steak type (Tbone, Sirloin etc))"/>
+        <ns:DynamicAttribute name="BerryType" type="String" displayText="Berry type" tooltip="Berry type" description="Berry type (Video, Book etc))"/>
+        <ns:DynamicAttribute name="SoftdrinkType" type="String" displayText="Softdrink type" tooltip="Softdrink type" description="Softdrink type (Pilot, Jump, Exit, Window etc))"/>
+        <ns:DynamicAttribute name="WineType" type="String" displayText="Wine type" tooltip="Wine type" description="Wine type (Red, White etc))"/>
+    </ns:Entity>
+</ns:ASxMetaModel>

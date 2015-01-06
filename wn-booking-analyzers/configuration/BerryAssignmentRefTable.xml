@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Tables xmlns:ns="http://www.sabre.com/asx">
+    <ns:Table name="BerryAssignment" dbname="REF_BERRY_ASSIGNMENT">
+        <ns:Description>Contains stuff for assignment analyzer.</ns:Description>
+        <ns:Column name="BerryId" dbname="BERRY_ID" type="number" primary-key="true">
+            <ns:Description>The fruit ID.</ns:Description>
+        </ns:Column>
+
+        <ns:Column name="BerryName" dbname="BERRY_NAME" type="string" mandatory="true">
+            <ns:Description>
+                Name of the fruit
+            </ns:Description>
+        </ns:Column>
+
+        <ns:Column name="FlavourType" dbname="FLAVOUR_TYPE" type="string" mandatory="true">
+            <ns:Description>
+                Type of flavour
+            </ns:Description>
+            <ns:Allowed>Sweet</ns:Allowed>
+            <ns:Allowed>Sour</ns:Allowed>
+            <ns:Allowed>Fresh</ns:Allowed>
+            <ns:Allowed>Crisp</ns:Allowed>
+        </ns:Column>
+
+        <ns:Column name="TasteScore" dbname="TASTE_SCORE" type="string" mandatory="true">
+            <ns:Description>
+                A scale from something to something else
+            </ns:Description>
+        </ns:Column>
+
+        <ns:Column name="Spoilage" dbname="SPOILAGE" type="double" mandatory="false">
+            <ns:Description>
+                Real number percentage of spoilage
+            </ns:Description>
+        </ns:Column>
+
+        <ns:Column name="InSeasonFrom" dbname="IN_SEASON_FROM" type="timestamp" mandatory="false">
+            <ns:Description>
+                Date season starts
+            </ns:Description>
+        </ns:Column>
+
+        <ns:Column name="InSeasonTo" dbname="IN_SEASON_TO" type="timestamp" mandatory="false">
+            <ns:Description>
+                Date season ends
+            </ns:Description>
+        </ns:Column>
+
+        <ns:Column name="Capacity" dbname="CAPACITY" type="number" mandatory="false">
+            <ns:Description>
+                Capacity count for storage
+            </ns:Description>
+        </ns:Column>
+
+        <ns:Column name="Restricted" dbname="RESTRICTED" type="boolean" mandatory="false">
+            <ns:Description>
+                import restrictions apply
+            </ns:Description>
+        </ns:Column>
+
+    </ns:Table>
+</ns:Tables>

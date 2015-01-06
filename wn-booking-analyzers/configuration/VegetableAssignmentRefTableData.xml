@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns:TableRows xmlns:ns="http://www.sabre.com/asx">
+    <ns:Table name="VegetableAssignment">
+        <ns:Row>
+            <ns:Cell name="VegetableId">1</ns:Cell>
+            <ns:Cell name="VegetableName">Tomato</ns:Cell>
+            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="VegetableId">2</ns:Cell>
+            <ns:Cell name="VegetableName">Cucumber</ns:Cell>
+            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="VegetableId">3</ns:Cell>
+            <ns:Cell name="VegetableName">Pepper</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="VegetableId">4</ns:Cell>
+            <ns:Cell name="VegetableName">Jalapeno</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+
+    </ns:Table>
+</ns:TableRows>
+

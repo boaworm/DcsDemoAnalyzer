@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns:TableRows xmlns:ns="http://www.sabre.com/asx">
+    <ns:Table name="FruitAssignment">
+        <ns:Row>
+            <ns:Cell name="FruitId">1</ns:Cell>
+            <ns:Cell name="FruitName">Apple1</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">2</ns:Cell>
+            <ns:Cell name="FruitName">Apple2</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">3</ns:Cell>
+            <ns:Cell name="FruitName">Apple3</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">4</ns:Cell>
+            <ns:Cell name="FruitName">Apple4</ns:Cell>
+            <ns:Cell name="FlavourType">Sour</ns:Cell>
+            <ns:Cell name="TasteScore">Good</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">5</ns:Cell>
+            <ns:Cell name="FruitName">Peach1</ns:Cell>
+            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="TasteScore">Bad</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">6</ns:Cell>
+            <ns:Cell name="FruitName">Peach2</ns:Cell>
+            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="TasteScore">Bad</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">7</ns:Cell>
+            <ns:Cell name="FruitName">Peach3</ns:Cell>
+            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="TasteScore">Bad</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+        <ns:Row>
+            <ns:Cell name="FruitId">8</ns:Cell>
+            <ns:Cell name="FruitName">Peach4</ns:Cell>
+            <ns:Cell name="FlavourType">Sweet</ns:Cell>
+            <ns:Cell name="TasteScore">Bad</ns:Cell>
+            <ns:Cell name="Spoilage">0.10</ns:Cell>
+            <ns:Cell name="InSeasonFrom">2014-03-01 00:00:00</ns:Cell>
+            <ns:Cell name="InSeasonTo">2014-08-01 00:00:00</ns:Cell>
+            <ns:Cell name="Capacity">100</ns:Cell>
+            <ns:Cell name="Restricted">true</ns:Cell>
+        </ns:Row>
+    </ns:Table>
+</ns:TableRows>
+

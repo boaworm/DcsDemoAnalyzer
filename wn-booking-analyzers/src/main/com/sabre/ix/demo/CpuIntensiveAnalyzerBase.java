@@ -22,7 +22,7 @@ public class CpuIntensiveAnalyzerBase implements Analyzer<Booking>, ContextAware
     private Context context;
 
     @Override
-    public void analyze(Booking dataObject) {
+    public void analyze(Booking booking) {
         ParameterServices parameterServices = context.getParameterServices();
         Integer minimumCpuMillis = parameterServices.getOptionalParameter(MINIMUM_CPU_MILLIS, 100);
         Integer maximumCpuMillis = parameterServices.getOptionalParameter(MAXIMUM_CPU_MILLIS, 300);

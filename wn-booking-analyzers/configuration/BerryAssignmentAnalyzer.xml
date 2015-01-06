@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:ClientAnalyzers xmlns:ns="http://www.sabre.com/asx">
+    <ns:ClientAnalyzer>
+        <ns:Name>BerryAssignmentAnalyzer</ns:Name>
+        <ns:ClassName>com.sabre.ix.demo.BerryAnalyzer</ns:ClassName>
+        <ns:ElementName>Booking</ns:ElementName>
+        <ns:ClientAnalyzerDependencies/>
+        <ns:ClientContainers>
+            <ns:ClientContainer>Booking Client Container</ns:ClientContainer>
+        </ns:ClientContainers>
+    </ns:ClientAnalyzer>
+</ns:ClientAnalyzers>
