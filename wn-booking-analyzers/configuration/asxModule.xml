@@ -29,6 +29,8 @@
         <ns:ConfigItem type="ClientAnalyzer" name="SteakAssignmentAnalyzer" source="SteakAssignmentAnalyzer.xml"/>
         <ns:ConfigItem type="ClientAnalyzer" name="WineAssignmentAnalyzer" source="WineAssignmentAnalyzer.xml"/>
 
+        <ns:ConfigItem type="ClientAnalyzer" name="MissingVowelInNameAnalyzer" source="MissingVowelInNameAnalyzer.xml"/>
+
         <!-- Parameters -->
         <ns:ConfigItem type="Parameter" name="FruitAssignmentParameter" source="FruitAssignmentAnalyzerParameter.xml"/>
     </ns:Configuration>

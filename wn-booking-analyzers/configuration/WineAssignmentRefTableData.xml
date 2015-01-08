@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns:TableRows xmlns:ns="http://www.sabre.com/asx">
-    <ns:Table name="VegetableAssignment">
+    <ns:Table name="WineAssignment">
         <ns:Row>
-            <ns:Cell name="VegetableId">1</ns:Cell>
-            <ns:Cell name="VegetableName">Boujoulais</ns:Cell>
+            <ns:Cell name="WineId">1</ns:Cell>
+            <ns:Cell name="WineName">Boujoulais</ns:Cell>
             <ns:Cell name="FlavourType">Red</ns:Cell>
             <ns:Cell name="TasteScore">Good</ns:Cell>
             <ns:Cell name="Spoilage">0.10</ns:Cell>
@@ -13,8 +13,8 @@
             <ns:Cell name="Restricted">true</ns:Cell>
         </ns:Row>
         <ns:Row>
-            <ns:Cell name="VegetableId">2</ns:Cell>
-            <ns:Cell name="VegetableName">Bourdeaux</ns:Cell>
+            <ns:Cell name="WineId">2</ns:Cell>
+            <ns:Cell name="WineName">Bourdeaux</ns:Cell>
             <ns:Cell name="FlavourType">Red</ns:Cell>
             <ns:Cell name="TasteScore">Good</ns:Cell>
             <ns:Cell name="Spoilage">0.10</ns:Cell>
@@ -24,8 +24,8 @@
             <ns:Cell name="Restricted">true</ns:Cell>
         </ns:Row>
         <ns:Row>
-            <ns:Cell name="VegetableId">3</ns:Cell>
-            <ns:Cell name="VegetableName">Dom Perignon</ns:Cell>
+            <ns:Cell name="WineId">3</ns:Cell>
+            <ns:Cell name="WineName">Dom Perignon</ns:Cell>
             <ns:Cell name="FlavourType">Sparkling</ns:Cell>
             <ns:Cell name="TasteScore">Good</ns:Cell>
             <ns:Cell name="Spoilage">0.10</ns:Cell>
@@ -35,8 +35,8 @@
             <ns:Cell name="Restricted">true</ns:Cell>
         </ns:Row>
         <ns:Row>
-            <ns:Cell name="VegetableId">4</ns:Cell>
-            <ns:Cell name="VegetableName">Robert Mondavi Chardonnay</ns:Cell>
+            <ns:Cell name="WineId">4</ns:Cell>
+            <ns:Cell name="WineName">Robert Mondavi Chardonnay</ns:Cell>
             <ns:Cell name="FlavourType">White</ns:Cell>
             <ns:Cell name="TasteScore">Good</ns:Cell>
             <ns:Cell name="Spoilage">0.10</ns:Cell>
@@ -46,8 +46,8 @@
             <ns:Cell name="Restricted">true</ns:Cell>
         </ns:Row>
         <ns:Row>
-            <ns:Cell name="VegetableId">5</ns:Cell>
-            <ns:Cell name="VegetableName">Domaines Ott</ns:Cell>
+            <ns:Cell name="WineId">5</ns:Cell>
+            <ns:Cell name="WineName">Domaines Ott</ns:Cell>
             <ns:Cell name="FlavourType">White</ns:Cell>
             <ns:Cell name="TasteScore">Good</ns:Cell>
             <ns:Cell name="Spoilage">0.10</ns:Cell>

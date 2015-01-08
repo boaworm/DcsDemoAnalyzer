@@ -33,7 +33,6 @@ public class WineAnalyzer implements Analyzer<Booking>, ContextAware {
         }
 
         ReferenceTable wineTable = context.getReferenceTableServices().getReferenceTable("WineAssignment");
-        Short sweetWineThreshold = context.getParameterServices().getOptionalParameter("SweetWineThreshold", (short) 2);
         int wineCount = 0;
         if (wineTable == null) {
             log.warn("Failed to find Wine reference table");
