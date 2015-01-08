@@ -42,7 +42,7 @@ public class MissingVowelInNameAnalyzer implements Analyzer<Booking> {
     }
 
     public boolean stringContainsVowel(String s) {
-        return s.matches(".*[aeiouAEIOU].*");
+        return s.matches(".*[aeiouyAEIOUY].*");
     }
 
 }
